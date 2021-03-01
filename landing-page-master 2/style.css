@@ -1,0 +1,16 @@
+/* Write some CSS below */
+body {
+	font-family: Overpass;
+	color: #404042;
+	font-size: 18px;
+	background-color: #FFFFF7
+	
+}
+
+h1 {
+	font-family: Overpass;
+}
+
+head.style {
+    background-color: #FFFFF7;
+}
