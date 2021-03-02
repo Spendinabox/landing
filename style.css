@@ -1,0 +1,91 @@
+/* Write some CSS below */
+body {
+	font-family: 'Nova Square', cursive;
+	color: #404042;
+	font-size: 18px;
+	background-color: #FFFFF7
+
+}
+
+h1 {
+	font-family: 'Nova Square', cursive;
+}
+
+head.style {
+    background-color: #FFFFF7;
+}
+
+a {
+    background-color: black;
+    color: white;
+    text-decoration: solid;
+}
+
+a:hover {
+	color: #a44a3f;
+}
+
+.container {
+    width: 800px;
+    margin: 200px;
+}
+
+.banner {
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+    background-size: cover;
+}
+.button-black {
+    padding: 16px 48px;
+    display: inline-block;
+}
+
+.card-white {
+	background: white;
+	box-shadow: 0 0 16px  rgba(0,0,0,0.1);
+	border-radius: 4px;
+	width: 200px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+}
+
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100px 100px 100px
+	grid-gap: 16px;
+}
+
+/* Cards media queries */
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
